@@ -4,7 +4,7 @@
   "description": "Code to support lunch and learn presentation",
   "main": "index.js",
   "scripts": {
-    "build": "backpack build",
+    "build": "rimraf build && backpack build",
     "dev": "backpack dev",
     "test": "ava"
   },
@@ -26,12 +26,15 @@
   },
   "homepage": "https://github.com/peterjgrainger/lunch-and-learn#readme",
   "dependencies": {
+    "express": "^4.16.2",
+    "random-emoji": "^1.0.2"
+  },
+  "devDependencies": {
     "@types/express": "^4.11.1",
     "awesome-typescript-loader": "^3.4.1",
     "backpack-core": "^0.5.0",
-    "emoji-generator": "^1.1.0",
-    "express": "^4.16.2",
-    "random-emoji": "^1.0.2",
+    "rimraf": "^2.6.2",
+    "uglifyjs-webpack-plugin": "^1.2.0",
     "typescript": "^2.7.2"
   }
 }

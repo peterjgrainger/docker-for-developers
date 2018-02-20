@@ -1,3 +1,4 @@
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 module.exports = {
     webpack: (config, options, webpack) => {
       config.entry.main = [
@@ -14,6 +15,10 @@ module.exports = {
           loader: 'awesome-typescript-loader'
         }
       );
+      
+      config.plugins = [
+           new UglifyJSPlugin()
+        ];
   
       return config
     }
