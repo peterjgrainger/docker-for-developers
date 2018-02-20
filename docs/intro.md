@@ -6,9 +6,9 @@ I'm a developer working in on the 3rd floor in building 5 working on the Digital
 
 ## Where to find me
 
-@PeterJGrainger
-github.com/peterjgrainger
-gitlab.itsshared.net/peter.grainger
+* @PeterJGrainger
+* github.com/peterjgrainger
+* gitlab.itsshared.net/peter.grainger
 
 
 
